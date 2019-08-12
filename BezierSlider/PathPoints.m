@@ -18,7 +18,7 @@ static CGPoint *lastPointOfPathElement(CGPathElement const *element) {
         case kCGPathElementAddCurveToPoint: index = 2; break;
         case kCGPathElementAddLineToPoint: index = 0; break;
         case kCGPathElementAddQuadCurveToPoint: index = 1; break;
-        case kCGPathElementCloseSubpath: index = NSNotFound; break;
+        case kCGPathElementCloseSubpath: index = -1; break;
     }
     return index == NSNotFound ? 0 : &element->points[index];
 }

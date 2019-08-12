@@ -9,10 +9,7 @@
 /* Begin PBXBuildFile section */
 		7FBF6C222301FB43007AB74B /* BezierSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBF6C202301FB43007AB74B /* BezierSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7FBF6C2E2301FBA9007AB74B /* PathPoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBF6C282301FBA8007AB74B /* PathPoints.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FBF6C2F2301FBA9007AB74B /* PathPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF6C292301FBA8007AB74B /* PathPoints.m */; };
 		7FBF6C302301FBA9007AB74B /* UIBezierPath+forEachElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBF6C2A2301FBA8007AB74B /* UIBezierPath+forEachElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FBF6C322301FBA9007AB74B /* BezierSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF6C2C2301FBA8007AB74B /* BezierSlider.swift */; };
-		7FBF6C332301FBA9007AB74B /* UIBezierPath+forEachElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBF6C2D2301FBA8007AB74B /* UIBezierPath+forEachElement.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,7 +87,6 @@
 				7FBF6C182301FB43007AB74B /* Headers */,
 				7FBF6C192301FB43007AB74B /* Sources */,
 				7FBF6C1A2301FB43007AB74B /* Frameworks */,
-				7FBF6C1B2301FB43007AB74B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -133,24 +129,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		7FBF6C1B2301FB43007AB74B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		7FBF6C192301FB43007AB74B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FBF6C332301FBA9007AB74B /* UIBezierPath+forEachElement.m in Sources */,
-				7FBF6C2F2301FBA9007AB74B /* PathPoints.m in Sources */,
-				7FBF6C322301FBA9007AB74B /* BezierSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +281,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandr.yevdokymov.BezierSlider;
+				PRODUCT_MODULE_NAME = BezierSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -325,6 +309,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.oleksandr.yevdokymov.BezierSlider;
+				PRODUCT_MODULE_NAME = BezierSlider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
