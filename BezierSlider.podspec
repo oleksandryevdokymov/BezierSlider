@@ -21,7 +21,7 @@ s.source = { :git => "https://github.com/oleksandryevdokymov/BezierSlider.git",
 
 s.framework = "UIKit"
 
-s.source_files = "BezierSlider/**/*.{h,m,swift}"
+s.source_files = "BezierSlider/**/*.{swift}"
 
 
 s.swift_version = "4.2"
