@@ -12,45 +12,45 @@ protocol BezierSliderDelegate {
     func sliderPositionChanged(value: Float)
 }
 
-class BezierSlider: UIView {
+public class BezierSlider: UIView {
     // MARK: - Public properties - Bezier Slider configurations
-    var curvedPath: UIBezierPath? {
+    public var curvedPath: UIBezierPath? {
         didSet {
             configure()
         }
     }
     
-    var thumbFillColor: UIColor = .white {
+    public var thumbFillColor: UIColor = .white {
         didSet {
             configure()
         }
     }
     
-    var thumbStrokeColor: UIColor = .lightGray {
+    public var thumbStrokeColor: UIColor = .lightGray {
         didSet {
             configure()
         }
     }
     
-    var thumbLineWidth: CGFloat = 3.0 {
+    public var thumbLineWidth: CGFloat = 3.0 {
         didSet {
             configure()
         }
     }
     
-    var thumbRect: CGRect = CGRect(x: 0.0, y: 0.0, width: 30.0, height: 30.0) {
+    public var thumbRect: CGRect = CGRect(x: 0.0, y: 0.0, width: 30.0, height: 30.0) {
         didSet {
             configure()
         }
     }
     
-    var curvedStrokeColor: UIColor = .blue {
+    public var curvedStrokeColor: UIColor = .blue {
         didSet {
             configure()
         }
     }
     
-    var curvedShapeWidth: CGFloat = 3.0 {
+    public var curvedShapeWidth: CGFloat = 3.0 {
         didSet {
             configure()
         }
@@ -66,22 +66,22 @@ class BezierSlider: UIView {
     private var sliderValues: [Float] = []
     
     // MARK: - Public methods
-    convenience init(curvedPath: UIBezierPath, frame: CGRect) {
+    convenience public init(curvedPath: UIBezierPath, frame: CGRect) {
         self.init(frame: frame)
         self.curvedPath = curvedPath
         configure()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         configure()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         configure()
     }
     
