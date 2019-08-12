@@ -8,8 +8,6 @@ s.version      = "0.1.0"
 s.summary      = "BezierSlider lets a user create custom slider from UIBezierPath"
 s.requires_arc = true
 
-s.version = "0.1.0"
-
 s.license = { :type => "MIT", :file => "LICENSE" }
 
 s.author = { "Oleksandr Yevdokymov" => "oklahoma0707@gmail.com" }
@@ -21,7 +19,7 @@ s.source = { :git => "https://github.com/oleksandryevdokymov/BezierSlider.git",
 
 s.framework = "UIKit"
 
-s.source_files = "BezierSlider/**/*.{swift,h,m}"
+s.source_files = "BezierSlider/**/*.{h,m,swift}"
 
 
 s.swift_version = "4.2"
