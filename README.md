@@ -1,5 +1,5 @@
 # BezierSlider
-![](https://github.com/oleksandryevdokymov/BezierSlider/blob/master/demo1.gif)![](https://github.com/oleksandryevdokymov/BezierSlider/blob/master/demo1.gif)
+![](https://github.com/oleksandryevdokymov/BezierSlider/blob/master/demo1.gif) ![](https://github.com/oleksandryevdokymov/BezierSlider/blob/master/demo2.gif)
 
 BezierSlider is open source cocoa pod library lets a user create custom slider builded on UIBezierPath(). You can specify a custom thumb and cureved shape. Framework also let you receive slider’s current value from delegate method.
 
