@@ -1,5 +1,5 @@
 # BezierSlider
-BezierSlider is open source cocoa pod library lets a user create custom slider from UIBezierPath().
+BezierSlider is open source cocoa pod library lets a user create custom slider builded on UIBezierPath(). You can specify a custom thumb and cureved shape. Framework also let you receive slider’s current value from delegate method.
 
 ## Installation
 ### CococaPods
@@ -12,6 +12,24 @@ pod 'BezierSlider'
 ## Requirements
 * iOS 10.0+
 * Swift 4.2+
+
+## Usage 
+1. Add the following import to the top of the file:
+```
+import BezierSlider
+```
+2. Use the following to create bezier slider view from UIBezierPath:
+```
+let bezierSlider =  BezierSlider(curvedPath: <#T##UIBezierPath#>, frame: <#T##CGRect#>)
+```
+3. Make self as delegate for BezierSlider:
+```
+bezierSlider.delegate = self
+```
+4. Append slider as subview to present on screen:
+```
+view.addSubview(bezierSlider)
+```
 
 ## Contact info
 *Oleksandr Yevdokymov* Easily email me  - [PurpleBooth](oklahoma0707@gmail.com)
