@@ -32,7 +32,7 @@ bezierSlider.delegate = self
 ```
 view.addSubview(bezierSlider)
 ```
-5. Implement delegate method and comformance to BezierSliderDelegete: 
+5. Implement delegate method and comformance to BezierSliderDelegete (method return slider's current value from 0.0 to 1.0): 
 ```
 extension ViewController: BezierSliderDelegate {
     func sliderPositionChanged(value: Float) {
