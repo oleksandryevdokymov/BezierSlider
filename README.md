@@ -40,7 +40,8 @@ extension ViewController: BezierSliderDelegate {
 ```
 
 ## Contact info
-*Oleksandr Yevdokymov* Easily email me  - [PurpleBooth](oklahoma0707@gmail.com)
+*Oleksandr Yevdokymov* 
+Easily email me  - [oklahoma0707@gmail.com](oklahoma0707@gmail.com)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
