@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol BezierSliderDelegate {
+public protocol BezierSliderDelegate: class {
     func sliderPositionChanged(value: Float)
 }
 
@@ -55,7 +55,8 @@ public class BezierSlider: UIView {
             configure()
         }
     }
-    var delegate: BezierSliderDelegate?
+    
+    public var delegate: BezierSliderDelegate?
     
     // MARK: - Private Properties
     private var thumbView = UIView()
