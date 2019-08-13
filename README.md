@@ -41,6 +41,18 @@ extension ViewController: BezierSliderDelegate {
 }
 ```
 
+## Customization
+You can customize the thumb fill and stroke colors, thumb line width and rect, curve stroke color and shape width using the following properties:
+```
+public var curvedPath: UIBezierPath? { get set }
+public var thumbFillColor: UIColor { get set }
+public var thumbStrokeColor: UIColor { get set }
+public var thumbLineWidth: CGFloat { get set }
+public var thumbRect: CGRect { get set }
+public var curvedStrokeColor: UIColor { get set }
+public var curvedShapeWidth: CGFloat { get set }
+```
+
 ## Contact info
 Easily email me  - [oklahoma0707@gmail.com](oklahoma0707@gmail.com) | *Oleksandr Yevdokymov* 
 
