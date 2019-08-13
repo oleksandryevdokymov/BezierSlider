@@ -30,6 +30,14 @@ bezierSlider.delegate = self
 ```
 view.addSubview(bezierSlider)
 ```
+5. Implement delegate method and comformance to BezierSliderDelegete: 
+```
+extension ViewController: BezierSliderDelegate {
+    func sliderPositionChanged(value: Float) {
+        // use slider’s value when thumb position changed
+    }
+}
+```
 
 ## Contact info
 *Oleksandr Yevdokymov* Easily email me  - [PurpleBooth](oklahoma0707@gmail.com)
