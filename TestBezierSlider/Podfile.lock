@@ -1,0 +1,16 @@
+PODS:
+  - BezierSlider (0.1.2)
+
+DEPENDENCIES:
+  - BezierSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BezierSlider
+
+SPEC CHECKSUMS:
+  BezierSlider: 43f784b1b779c9eac6a94c05c41a03f16ca91f67
+
+PODFILE CHECKSUM: 148a81c6b7de4d3aaadd92ff747edd2d5b9245d9
+
+COCOAPODS: 1.7.5

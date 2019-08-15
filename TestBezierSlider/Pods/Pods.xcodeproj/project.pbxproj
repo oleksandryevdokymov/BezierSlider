@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C45B5ABB5E8CC1D3A1BE7E8FC32E761 /* PathPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = DD13C5C3A25B1401ED1B2501DED11A2E /* PathPoints.m */; };
+		25834F5A3188DEE831A4786095791361 /* BezierSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D5E75DDCD2D563D796B736EAAD5A2E /* BezierSlider-dummy.m */; };
+		2C612875BB4A7F6863DF11F41164DDB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		347023688E4B4CA51124066205D7E8F9 /* UIBezierPath+forEachElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFC86EEC99C540D2643CCA7361AFA2 /* UIBezierPath+forEachElement.m */; };
+		3788507FFD994BB1BAF449C4CEE977E7 /* BezierSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 2675EFED37FF5806F14926EE8720D194 /* BezierSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A97758647A1686777826410E869EE91 /* BezierSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BADB136AFAAD6DFFB1DE24106FE0B7E0 /* BezierSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFE215C542C27C5B1F47E7FB1B28D8A /* BezierSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E706A72BBB2AB341F2ED76311FD56 /* BezierSlider.swift */; };
+		6580CFA158CFFB09B39FB44D9F2A5E36 /* Pods-TestBezierSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A78CED1B06142433CF98AFC084B561C /* Pods-TestBezierSlider-dummy.m */; };
+		773A1D03D050464DE251F3FB51730B65 /* PathPoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB20F6E9C834825A2FF0F2D5CE5B9B9 /* PathPoints.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9F260E6BFA84623395F34A0391A6FA9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		B3182F70B967A5815823760BC0A12EE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		BA6ED6BC2C9624AD5AFBD1A8A574D26E /* UIBezierPath+forEachElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E8EE745E89EA705C131162453B2AF9 /* UIBezierPath+forEachElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9B8B9BCE5092B3F70D8DCAE9C8F8F6A /* Pods-TestBezierSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE556DB06FD2CB05BDEA4857AD1E2FE /* Pods-TestBezierSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46FDC9906E55F318DF9AEDA41122088F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B6C8122789C036E8B5FCDFD747AB204;
+			remoteInfo = BezierSlider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16D5E75DDCD2D563D796B736EAAD5A2E /* BezierSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BezierSlider-dummy.m"; sourceTree = "<group>"; };
+		2675EFED37FF5806F14926EE8720D194 /* BezierSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BezierSlider.h; path = BezierSlider/BezierSlider.h; sourceTree = "<group>"; };
+		30CF22FADFBE7C5D7D20E2719A0E1836 /* Pods-TestBezierSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBezierSlider-Info.plist"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39E8EE745E89EA705C131162453B2AF9 /* UIBezierPath+forEachElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+forEachElement.h"; path = "BezierSlider/UIBezierPath+forEachElement.h"; sourceTree = "<group>"; };
+		3A78CED1B06142433CF98AFC084B561C /* Pods-TestBezierSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBezierSlider-dummy.m"; sourceTree = "<group>"; };
+		3B6E706A72BBB2AB341F2ED76311FD56 /* BezierSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BezierSlider.swift; path = BezierSlider/BezierSlider.swift; sourceTree = "<group>"; };
+		3D3F1F199DFB7C3E73A5E47CC80D6B0C /* BezierSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BezierSlider-prefix.pch"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5232CBC1C446CC04DFD6006A17CD65FA /* BezierSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BezierSlider.modulemap; sourceTree = "<group>"; };
+		5DB690643D2D39CC1FF58F6AAAC37E7F /* Pods_TestBezierSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestBezierSlider.framework; path = "Pods-TestBezierSlider.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BFC86EEC99C540D2643CCA7361AFA2 /* UIBezierPath+forEachElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+forEachElement.m"; path = "BezierSlider/UIBezierPath+forEachElement.m"; sourceTree = "<group>"; };
+		77BEE19513596E8BF404FFF3FAF546EF /* Pods-TestBezierSlider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBezierSlider-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C208F38FFC7FAEF2DB97836097A17AC /* BezierSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BezierSlider.xcconfig; sourceTree = "<group>"; };
+		95B9E0DAB4B7BC69895311B39364B459 /* Pods-TestBezierSlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBezierSlider.release.xcconfig"; sourceTree = "<group>"; };
+		9A88BC3B50E60D9A268EA20B92E480EA /* Pods-TestBezierSlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBezierSlider.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB20F6E9C834825A2FF0F2D5CE5B9B9 /* PathPoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PathPoints.h; path = BezierSlider/PathPoints.h; sourceTree = "<group>"; };
+		9FE556DB06FD2CB05BDEA4857AD1E2FE /* Pods-TestBezierSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBezierSlider-umbrella.h"; sourceTree = "<group>"; };
+		A0D3CCD200EE14551B2207B8C9D020EC /* Pods-TestBezierSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestBezierSlider.modulemap"; sourceTree = "<group>"; };
+		B10DCEE52C7AC56E7B0B451BB837E8D3 /* Pods-TestBezierSlider-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBezierSlider-frameworks.sh"; sourceTree = "<group>"; };
+		B2E4DB16DC58EC596BFC633E7D3682A8 /* Pods-TestBezierSlider-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBezierSlider-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BADB136AFAAD6DFFB1DE24106FE0B7E0 /* BezierSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BezierSlider-umbrella.h"; sourceTree = "<group>"; };
+		DD13C5C3A25B1401ED1B2501DED11A2E /* PathPoints.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PathPoints.m; path = BezierSlider/PathPoints.m; sourceTree = "<group>"; };
+		E77E0796F11E6A4E8FE1FFA4F5CF769C /* BezierSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BezierSlider.framework; path = BezierSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDACE3F0A2001E517E8B2B3AE4EC9397 /* BezierSlider-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BezierSlider-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B6B0C686162A9B218E58736116FDFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C612875BB4A7F6863DF11F41164DDB6 /* Foundation.framework in Frameworks */,
+				A9F260E6BFA84623395F34A0391A6FA9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8DF23B73E86687821F40EFEB09F2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3182F70B967A5815823760BC0A12EE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E40A6C67EDE6B304C5203CFE638A7D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30869A2B0CB515F435A736F25C257FE4 /* Pods-TestBezierSlider */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30869A2B0CB515F435A736F25C257FE4 /* Pods-TestBezierSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A0D3CCD200EE14551B2207B8C9D020EC /* Pods-TestBezierSlider.modulemap */,
+				B2E4DB16DC58EC596BFC633E7D3682A8 /* Pods-TestBezierSlider-acknowledgements.markdown */,
+				77BEE19513596E8BF404FFF3FAF546EF /* Pods-TestBezierSlider-acknowledgements.plist */,
+				3A78CED1B06142433CF98AFC084B561C /* Pods-TestBezierSlider-dummy.m */,
+				B10DCEE52C7AC56E7B0B451BB837E8D3 /* Pods-TestBezierSlider-frameworks.sh */,
+				30CF22FADFBE7C5D7D20E2719A0E1836 /* Pods-TestBezierSlider-Info.plist */,
+				9FE556DB06FD2CB05BDEA4857AD1E2FE /* Pods-TestBezierSlider-umbrella.h */,
+				9A88BC3B50E60D9A268EA20B92E480EA /* Pods-TestBezierSlider.debug.xcconfig */,
+				95B9E0DAB4B7BC69895311B39364B459 /* Pods-TestBezierSlider.release.xcconfig */,
+			);
+			name = "Pods-TestBezierSlider";
+			path = "Target Support Files/Pods-TestBezierSlider";
+			sourceTree = "<group>";
+		};
+		683B4422EE8403765292E9A5814EE5EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5232CBC1C446CC04DFD6006A17CD65FA /* BezierSlider.modulemap */,
+				8C208F38FFC7FAEF2DB97836097A17AC /* BezierSlider.xcconfig */,
+				16D5E75DDCD2D563D796B736EAAD5A2E /* BezierSlider-dummy.m */,
+				EDACE3F0A2001E517E8B2B3AE4EC9397 /* BezierSlider-Info.plist */,
+				3D3F1F199DFB7C3E73A5E47CC80D6B0C /* BezierSlider-prefix.pch */,
+				BADB136AFAAD6DFFB1DE24106FE0B7E0 /* BezierSlider-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BezierSlider";
+			sourceTree = "<group>";
+		};
+		8CB64EFF03723B6215F94D5B36826E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9644C7AB785402D883BA73DEF9D29CC8 /* BezierSlider */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9644C7AB785402D883BA73DEF9D29CC8 /* BezierSlider */ = {
+			isa = PBXGroup;
+			children = (
+				2675EFED37FF5806F14926EE8720D194 /* BezierSlider.h */,
+				3B6E706A72BBB2AB341F2ED76311FD56 /* BezierSlider.swift */,
+				9EB20F6E9C834825A2FF0F2D5CE5B9B9 /* PathPoints.h */,
+				DD13C5C3A25B1401ED1B2501DED11A2E /* PathPoints.m */,
+				39E8EE745E89EA705C131162453B2AF9 /* UIBezierPath+forEachElement.h */,
+				72BFC86EEC99C540D2643CCA7361AFA2 /* UIBezierPath+forEachElement.m */,
+				683B4422EE8403765292E9A5814EE5EE /* Support Files */,
+			);
+			name = BezierSlider;
+			path = BezierSlider;
+			sourceTree = "<group>";
+		};
+		A71D50AD05A528EE7C5EAD89DF1B0054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E77E0796F11E6A4E8FE1FFA4F5CF769C /* BezierSlider.framework */,
+				5DB690643D2D39CC1FF58F6AAAC37E7F /* Pods_TestBezierSlider.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8CB64EFF03723B6215F94D5B36826E80 /* Pods */,
+				A71D50AD05A528EE7C5EAD89DF1B0054 /* Products */,
+				0E40A6C67EDE6B304C5203CFE638A7D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A3DBE225E2BE5503BC03636E82D7D4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B8B9BCE5092B3F70D8DCAE9C8F8F6A /* Pods-TestBezierSlider-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9306FD356E4B10EC72E1C5100EF08563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A97758647A1686777826410E869EE91 /* BezierSlider-umbrella.h in Headers */,
+				3788507FFD994BB1BAF449C4CEE977E7 /* BezierSlider.h in Headers */,
+				773A1D03D050464DE251F3FB51730B65 /* PathPoints.h in Headers */,
+				BA6ED6BC2C9624AD5AFBD1A8A574D26E /* UIBezierPath+forEachElement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BFEB54C3DA0F6A2975D177AB961C719 /* Pods-TestBezierSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E3DED0BFE3DAA30AB2FFB170F072FB8 /* Build configuration list for PBXNativeTarget "Pods-TestBezierSlider" */;
+			buildPhases = (
+				4A3DBE225E2BE5503BC03636E82D7D4A /* Headers */,
+				E8F032352D3E8CC435376763FE53ACD8 /* Sources */,
+				CF8DF23B73E86687821F40EFEB09F2BF /* Frameworks */,
+				0341AAA5BB8210623E2B473249650EC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BEA5B057D51A7A0E4870D41EF00919E /* PBXTargetDependency */,
+			);
+			name = "Pods-TestBezierSlider";
+			productName = "Pods-TestBezierSlider";
+			productReference = 5DB690643D2D39CC1FF58F6AAAC37E7F /* Pods_TestBezierSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B6C8122789C036E8B5FCDFD747AB204 /* BezierSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EDF0BB5566AF4EC49467072DC18435 /* Build configuration list for PBXNativeTarget "BezierSlider" */;
+			buildPhases = (
+				9306FD356E4B10EC72E1C5100EF08563 /* Headers */,
+				0ADC74187A53A71B00ED3E56D456AEB5 /* Sources */,
+				01B6B0C686162A9B218E58736116FDFF /* Frameworks */,
+				781D3F3E39C81A02997A3720A33324AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BezierSlider;
+			productName = BezierSlider;
+			productReference = E77E0796F11E6A4E8FE1FFA4F5CF769C /* BezierSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A71D50AD05A528EE7C5EAD89DF1B0054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6C8122789C036E8B5FCDFD747AB204 /* BezierSlider */,
+				1BFEB54C3DA0F6A2975D177AB961C719 /* Pods-TestBezierSlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0341AAA5BB8210623E2B473249650EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		781D3F3E39C81A02997A3720A33324AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ADC74187A53A71B00ED3E56D456AEB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25834F5A3188DEE831A4786095791361 /* BezierSlider-dummy.m in Sources */,
+				5CFE215C542C27C5B1F47E7FB1B28D8A /* BezierSlider.swift in Sources */,
+				1C45B5ABB5E8CC1D3A1BE7E8FC32E761 /* PathPoints.m in Sources */,
+				347023688E4B4CA51124066205D7E8F9 /* UIBezierPath+forEachElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F032352D3E8CC435376763FE53ACD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6580CFA158CFFB09B39FB44D9F2A5E36 /* Pods-TestBezierSlider-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BEA5B057D51A7A0E4870D41EF00919E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BezierSlider;
+			target = 3B6C8122789C036E8B5FCDFD747AB204 /* BezierSlider */;
+			targetProxy = 46FDC9906E55F318DF9AEDA41122088F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		111C3CB94AACBA91B8C776B0DD1FE869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A88BC3B50E60D9A268EA20B92E480EA /* Pods-TestBezierSlider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestBezierSlider/Pods-TestBezierSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestBezierSlider/Pods-TestBezierSlider.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F0A32ED926D9CFB46AC64E8A426749C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C208F38FFC7FAEF2DB97836097A17AC /* BezierSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BezierSlider/BezierSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BezierSlider/BezierSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BezierSlider/BezierSlider.modulemap";
+				PRODUCT_MODULE_NAME = BezierSlider;
+				PRODUCT_NAME = BezierSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E68600BF5D81D71431A9DBDA6CD24AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B9E0DAB4B7BC69895311B39364B459 /* Pods-TestBezierSlider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestBezierSlider/Pods-TestBezierSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestBezierSlider/Pods-TestBezierSlider.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E16C41913676ED5064CDC39CF8A5BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C208F38FFC7FAEF2DB97836097A17AC /* BezierSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BezierSlider/BezierSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BezierSlider/BezierSlider-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BezierSlider/BezierSlider.modulemap";
+				PRODUCT_MODULE_NAME = BezierSlider;
+				PRODUCT_NAME = BezierSlider;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EDF0BB5566AF4EC49467072DC18435 /* Build configuration list for PBXNativeTarget "BezierSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E16C41913676ED5064CDC39CF8A5BB0 /* Debug */,
+				2F0A32ED926D9CFB46AC64E8A426749C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E3DED0BFE3DAA30AB2FFB170F072FB8 /* Build configuration list for PBXNativeTarget "Pods-TestBezierSlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				111C3CB94AACBA91B8C776B0DD1FE869 /* Debug */,
+				6E68600BF5D81D71431A9DBDA6CD24AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

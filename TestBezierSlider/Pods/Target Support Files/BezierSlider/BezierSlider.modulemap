@@ -1,0 +1,6 @@
+framework module BezierSlider {
+  umbrella header "BezierSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
