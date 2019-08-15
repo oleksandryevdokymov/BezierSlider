@@ -56,12 +56,14 @@ public class BezierSlider: UIView {
         }
     }
     
-    public var delegate: BezierSliderDelegate?
+    public weak var delegate: BezierSliderDelegate?
     
     // MARK: - Private Properties
     private var thumbView = UIView()
     private var pathPoints: [CGPoint] = []
-    private var pathPointsCount: Int = 0
+    private var pathPointsCount: Int {
+        return pathPoints.count
+    }
     private var desiredHandleCenter: CGPoint = .zero
     private var handlePathPointIndex: Int = 0
     private var sliderValues: [Float] = []
@@ -99,14 +101,7 @@ public class BezierSlider: UIView {
     
     private func createPathPoints(path: UIBezierPath) {
         let points = PathPoints.createPathPoints(path)
-        pathPoints = []
-        for point in points {
-            guard let pathPoint = point as? CGPoint else {
-                continue
-            }
-            pathPoints.append(pathPoint)
-        }
-        pathPointsCount = pathPoints.count
+        pathPoints = points.compactMap{ $0 as? CGPoint }
     }
     
     private func setupCurvedShape(path: UIBezierPath) {
@@ -133,14 +128,14 @@ public class BezierSlider: UIView {
     }
     
     func handleThumbLayout() {
-        handlePathPointIndex = handlePathPointIndexWithOffSet(offset: 0)
+        handlePathPointIndex = handlePathPointIndexWith(offset: 0)
         thumbView.center = pathPoints[handlePathPointIndex]
         delegate?.sliderPositionChanged(value: sliderValues[handlePathPointIndex])
     }
     
     func calcuteSliderValues() {
         let step = 1.0 / Float(pathPointsCount)
-        var counter = step
+        var counter: Float = 0.0
         var sliderValues: [Float] = [0.0]
         for _ in 1..<pathPointsCount-1 {
             counter += step
@@ -159,29 +154,24 @@ public class BezierSlider: UIView {
             let translation = gestureRecognizer.translation(in: self)
             desiredHandleCenter.x += translation.x
             desiredHandleCenter.y += translation.y
-            moveHandleTowardPoint(desiredHandleCenter)
+            moveHandleToPoint(desiredHandleCenter)
         default:
             break
         }
         gestureRecognizer.setTranslation(.zero, in: self)
     }
     
-    func moveHandleTowardPoint(_ point: CGPoint) {
+    func moveHandleToPoint(_ point: CGPoint) {
         let earlierDistance = distanceToPointIfViewMovesByOffset(point, offset: -1)
         let currentDistance = distanceToPointIfViewMovesByOffset(point, offset: 0)
         let laterDistance = distanceToPointIfViewMovesByOffset(point, offset: 1)
         if currentDistance <= earlierDistance && currentDistance <= laterDistance {
             return
         }
-        var direction: Int
-        var distance: CGFloat
-        if earlierDistance < laterDistance {
-            direction = -1
-            distance = earlierDistance
-        } else {
-            direction = 1
-            distance = laterDistance
-        }
+        
+        let isErlierDistance = earlierDistance < laterDistance
+        let direction: Int = isErlierDistance ? -1 : 1
+        var distance: CGFloat = isErlierDistance ? earlierDistance : laterDistance
         
         var offset = direction
         while (true) {
@@ -198,19 +188,13 @@ public class BezierSlider: UIView {
     }
     
     func distanceToPointIfViewMovesByOffset(_ point: CGPoint, offset: Int) -> CGFloat {
-        let index = handlePathPointIndexWithOffSet(offset: offset)
+        let index = handlePathPointIndexWith(offset: offset)
         let proposedHandlePoint = pathPoints[index]
         return CGFloat(hypotf(Float(point.x - proposedHandlePoint.x), Float(point.y - proposedHandlePoint.y)))
     }
     
-    func handlePathPointIndexWithOffSet(offset: Int) -> Int {
-        var index = handlePathPointIndex + offset
-        while index < 0 {
-            index += pathPointsCount
-        }
-        while index >= pathPointsCount {
-            index -= pathPointsCount
-        }
-        return index
+    func handlePathPointIndexWith(offset: Int) -> Int {
+        let index = (handlePathPointIndex + offset) % pathPointsCount
+        return index < 0 ? (index + pathPointsCount) : index
     }
 }
