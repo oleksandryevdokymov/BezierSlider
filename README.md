@@ -10,6 +10,10 @@ For information how to use and install, visit their website. To integrate Bezier
 ```
 pod 'BezierSlider'
 ```
+if previous specification not works use following:
+```
+pod 'BezierSlider', :git => 'https://github.com/oleksandryevdokymov/BezierSlider.git'
+```
 
 ## Requirements
 * iOS 10.0+
