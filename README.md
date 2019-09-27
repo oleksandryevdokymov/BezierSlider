@@ -4,8 +4,8 @@
 BezierSlider is open source cocoa pod library lets a user create custom slider builded on UIBezierPath(). You can specify a custom thumb and curved shape. Framework also let you receive slider’s current value from delegate method.
 
 ## Installation
-### CococaPods
-[CococaPods](https://cocoapods.org) - CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. 
+### CocoaPods
+[CocoaPods](https://cocoapods.org) - CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. 
 For information how to use and install, visit their website. To integrate BezierSlider into your Xcode project using CocoaPods, specify it in your Podfile:
 ```
 pod 'BezierSlider'
